@@ -1,5 +1,5 @@
 {
-  "name": "gatsby-plugin-remove-css-comments",
+  "name": "@brandedholdings/gatsby-plugin-remove-css-comments",
   "description": "Gatsby plugin to apply some additional css optimizations",
   "version": "1.0.0",
   "main": "index.js",
