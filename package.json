@@ -11,7 +11,7 @@
     "@babel/plugin-proposal-object-rest-spread": "7.3.4",
     "@babel/preset-env": "7.3.4",
     "dotenv": "6.2.0",
-    "release-it": "10.2.0"
+    "release-it": "*"
   },
   "dependencies": {
     "remove-comments-loader": "^0.1.2"
