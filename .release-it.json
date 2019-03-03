@@ -9,7 +9,8 @@
   },
   "git": {
     "tagName": "v${version}",
-    "requireCleaningWorkingDir": true
+    "requireCleaningWorkingDir": true,
+    "requireUpstream": false
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
