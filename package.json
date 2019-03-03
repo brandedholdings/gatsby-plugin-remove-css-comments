@@ -1,7 +1,7 @@
 {
   "name": "@brandedholdings/gatsby-plugin-remove-css-comments",
   "description": "Gatsby plugin to apply some additional css optimizations",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "index.js",
   "license": "MIT",
   "author": "David Maple",
