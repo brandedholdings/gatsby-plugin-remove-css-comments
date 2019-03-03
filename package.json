@@ -41,5 +41,8 @@
     "css",
     "optimize",
     "comments"
-  ]
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
 }
