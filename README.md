@@ -12,9 +12,7 @@ gatsby-plugin-remove-css-comments uses [http://semver.org/](http://semver.org/) 
 
 This project uses this webpack loader:
 
-- [purgecss](https://github.com/FullHuman/purgecss)
-- [purgecss-loader](https://github.com/americanexpress/purgecss-loader)
-- [gatsby](https://github.com/gatsbyjs/gatsby/)
+- [remove-comments-loader](https://github.com/yinhaibo01/remove-comments-loader)
 
 ## License
 
