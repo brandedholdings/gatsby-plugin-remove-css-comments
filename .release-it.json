@@ -1,0 +1,19 @@
+{
+  "github": {
+    "release": true
+  },
+  "increment": "conventional:angular",
+  "scripts": {
+    "beforeStage": "npm run build"
+  },
+  "git": {
+    "tagName": "v${version}",
+    "requireCleaningWorkingDir": true
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "npm": {
+    "publish": true
+  }
+}
