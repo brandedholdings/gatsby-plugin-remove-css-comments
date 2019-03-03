@@ -4,7 +4,8 @@
   },
   "increment": "conventional:angular",
   "scripts": {
-    "beforeStage": "npm run build"
+    "beforeStage": "npm run build",
+    "afterRelease": "echo Successfully released ${name} v${version} to ${repo.repository}."
   },
   "git": {
     "tagName": "v${version}",
