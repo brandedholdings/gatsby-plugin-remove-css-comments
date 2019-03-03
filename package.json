@@ -14,6 +14,7 @@
     "release-it": "*"
   },
   "dependencies": {
+    "get-installed-path": "^4.0.8",
     "remove-comments-loader": "^0.1.2"
   },
   "peerDependencies": {

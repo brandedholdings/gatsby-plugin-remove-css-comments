@@ -4,6 +4,7 @@
  * @typedef {import('webpack').RuleSetLoader} RuleSetLoader
  */
 import path from 'path';
+import { getInstalledPathSync } from 'get-installed-path';
 
 
 const loadersRegex = /postcss-loader/;
@@ -67,12 +68,15 @@ export function onCreateWebpackConfig(
      */
     const config = getConfig();
     const existingRules = config.module.rules;
+    const path = getInstalledPathSync('remove-comments-loader', {local: true});
+    console.log(path);
+
 
     /**
      * @type {RuleSetLoader}
      */
     const stripCommentsloader = {
-        loader: path.join(__dirname, 'node_modules/remove-comments-loader/index.js'),
+        loader: `${path}/index.js`,
         options: {
             test: /\.(css)$/,
         },
